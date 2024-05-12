@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact Us </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/08e75b5272.js" crossorigin="anonymous"></script>
+
+</head>
+<style>
+    .thirdsection {
+        margin-top: 0px;
+    }
+</style>
+
+<body>
+    <div class="head" >
+        <i class="fa-solid fa-phone-volume" style="color: black;
+        background-color: #ECA44F;
+        margin-top: 13px;"></i>
+        <p style="color: black; font-size: small;">+1 302 574 6393 </p>
+        <i class="fa-solid fa-envelope" style="color: black;
+        background-color: #ECA44F;
+        margin-top: 13px;"></i>
+        <p style="font-size: small;"> <a href="mailto:hr@galacticosnetwork.com" style="background-color:#ECA44F;font-size: small;">hr@galacticosnetwork.com</a></p>
+    </div>
+    <header>
+        <a href="index.html"><img class="logo" src="galacticos logo.jpg" alt="Galacticos Networks " height="110"
+                width="211"></a>
+
+        <nav>
+
+            <div class="nav_links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()" style="color:black"></i>
+                <ul>
+                    <li><a href="index.html"> HOME</a> </li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="whatwedo.html">WHAT WE DO</a> </li>
+                    <li><a class="cta" href="contactus.html"> CONTACT US</a></li>
+                    
+
+                </ul>
+
+            </div>
+
+            <i class="fa-solid fa-bars" onclick="showMenu()" style="color: #ECA44F"></i>
+
+        </nav>
+    </header>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+    <section class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1316.2384973356598!2d78.37947294015706!3d17.446923301556104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93de6997ba29%3A0x1971f1bd4d4efa35!2sMedicover%20Hospitals%20Rd%2C%20Patrika%20Nagar%2C%20HITEC%20City%2C%20Hyderabad%2C%20Telangana%20500081!5e0!3m2!1sen!2sin!4v1699262494881!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+    <section class="contact">
+        <div class="row">
+            <div class="contact-col">
+                <h5>// CONTACT DETAILS </h5>
+               <h1>Contact us</h1> 
+               <p>Give us a call or drop by anytime, we endeavour to answer all<br> enquiries within 24 hours on business days. We will be happy<br> to answer your questions.
+            </p>
+    
+                <div>
+                    <i class="fa-solid fa-globe" style="color: #ECA44F;font-size: 2rem;"></i>
+                    <span>
+                        <h5>Hyderabad, India</h5>
+                        <p style="color: black;font-size: 0.9rem;">502, Madhu Residency<br> HITEC City, Hyderabad,
+                            Telangana 500081</p>
+                    </span>
+
+
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe" style="color: #ECA44F;font-size: 2rem;"></i>
+                    <span>
+                        <h5>USA</h5>
+                        <p style="color: black;font-size: 0.9rem;">6 Heritage village Dr , Apt 501 , Nashua<br> NH 03062</p>
+                    </span>
+
+
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope" style="color:#ECA44F ;font-size: 2rem;"></i>
+                    <span>
+                        <h5>Our Mailbox</h5>
+                        <p style="color: black;font-size: 0.9rem;">hr@galacticosnetwork.com</p>
+                    </span>
+
+
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone-volume" style="color: #ECA44F;font-size: 2rem;"></i>
+
+
+                    <span>
+                        <h5>Our Phone</h5>
+                        <p style="color: black;font-size: 0.9rem;">+1 302 574 6393 </p>
+                    </span>
+
+
+
+                </div>
+            </div>
+            <div class="contact-col">
+                
+               <div class="contact-col-right"><h1>Ready to Get Started?</h1></div> 
+                    <p>Your email address will not be published.</p>
+                <form action="formhandler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name " required>
+                    <input type="email" name="email" placeholder="Enter Email address  " required>
+                    <input type="text" name="subject" placeholder="Enter your subject " required>
+                    <textarea rows="8" name="message" placeholder="message"></textarea>
+                    <button type="submit" class="Navbutton">submit</button>
+                </form>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer start -->
+    <section class="footer">
+        <div class="imagediv">
+            <img class="footerlogo" src="galacticos_logo-removebg.png" alt="Galacticos Networks " height="150"
+                width="300">
+
+        </div>
+
+        <div class="row">
+            <div class="reach1">
+                <i class="fa-solid fa-globe" style="color: #ECA44F;"></i>
+                <h5>Hyderabad</h5><p>502, Madhu Residency, HITEC City, Hyderabad,
+                    500081<br><br><h5>USA</h5> <p>6 Heritage village Dr , Apt 501 , Nashua  NH 03062</p>
+                    <h6>Head offices</h6>
+
+            </div>
+            <div class="reach2">
+                <i class="fa-solid fa-envelope" style="color:#ECA44F ;"></i>
+                <p> <a href="mailto:hr@galacticosnetwork.com">hr@galacticosnetwork.com</a></p>
+                <h6>OUR MAILBOX</h6>
+
+            </div>
+
+            <div class="reach3">
+                <i class="fa-solid fa-phone-volume" style="color: #ECA44F;"></i>
+                <p>+1 302 574 6393</p>
+                <h6>OUR PHONE</h6>
+
+
+            </div>
+        </div>
+        <div class="footerlinks">
+            <ul>
+                <li><a href="index.html"> HOME</a> </li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="whatwedo.html">WHAT WE DO</a> </li>
+                <li><a class="cta" href="contactus.html"> CONTACT US</a></li>
+
+            </ul>
+            <p class="copy"> © Copyright GALACTICOS NETWORK. All Rights Reserved</p>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer end  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
